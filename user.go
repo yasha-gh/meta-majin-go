@@ -150,3 +150,7 @@ func (m *MetaMajin) AddDevice(newDevice AddDeviceParams) (user Device, err error
 			TimezoneOffset: res.Msg.Device.TimezoneOffset,
 		}, nil
 }
+
+func (m *MetaMajin) Me() {
+	fmt.Println("Me")
+}
