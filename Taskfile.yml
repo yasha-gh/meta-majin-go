@@ -8,14 +8,14 @@ tasks:
   pull-metamajin:
     desc: "pull new version of Meta Majin"
     cmds:
-      - go get github.com/yasha-gh/meta-majin
+      - go get -u github.com/yasha-gh/meta-majin
   tag:
       desc: Create and push a new tag
       cmds:
         - |
           if git diff-index --quiet HEAD --; then
             git fetch origin master
-            git tag -a "latest" -m "latest"
+            git tag -fa "latest" -m "latest"
             git push origin tag "latest"
           else
             echo "Error: There are uncommitted changes. Please commit or stash your changes before creating a new tag."
