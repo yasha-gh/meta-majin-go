@@ -1,0 +1,11 @@
+version: '3'
+
+tasks:
+  # watch:
+  #   desc: "Wails dev"
+  #   cmds:
+  #     - wails dev
+  pull-metamajin:
+    desc: "pull new version of Meta Majin"
+    cmds:
+      - go get github.com/yasha-gh/meta-majin
