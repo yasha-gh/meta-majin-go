@@ -1,4 +1,4 @@
-module github.com/yasha-go/meta-majin-go
+module github.com/yasha-gh/meta-majin-go
 
 go 1.23.5
 
