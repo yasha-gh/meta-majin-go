@@ -5,11 +5,11 @@ import (
 
 	"context"
 	"log"
-	"net/http"
+	// "net/http"
 
 	// devicev1 "github.com/yasha-gh/meta-majin/gen/device/v1"
 	userv1 "github.com/yasha-gh/meta-majin/gen/user/v1"
-	"github.com/yasha-gh/meta-majin/gen/user/v1/userv1connect"
+	// "github.com/yasha-gh/meta-majin/gen/user/v1/userv1connect"
 
 	"connectrpc.com/connect"
 )
