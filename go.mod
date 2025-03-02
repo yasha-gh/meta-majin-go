@@ -4,7 +4,7 @@ go 1.23.5
 
 require (
 	connectrpc.com/connect v1.18.1
-	github.com/yasha-gh/meta-majin v0.0.0-20241210203712-ea009786b506
+	github.com/yasha-gh/meta-majin v0.0.0-20250302134101-211d24cb8d58
 )
 
 require (
